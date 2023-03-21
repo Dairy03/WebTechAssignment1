@@ -5,22 +5,36 @@ body{
    
 }
 
-h1{
+h1, h2{
     color:rgb(37, 105, 147);
     font-family:"Montserrat", sans-serif;
 }
 
-.header1{
+header{
     text-align:center;
+    height:16vh;
 }
 
 .main{
     background-color: rgb(243, 233, 222);
-    
+    display:flex;
+    flex-direction: column;
 }
 
 .aside{
     background-color: rgb(250, 244, 236);
     height:100vh;
-    margin:0%;
+
+}
+
+footer{
+    /* background-color:red; */
+    text-align:center;
+    height:16vh
+}
+
+.test{
+    /* background-color:blue; */
+    text-align:center;
+    height:68vh;
 }
