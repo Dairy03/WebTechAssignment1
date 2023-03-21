@@ -1,15 +1,26 @@
 body{
-    background-color:rgb(37, 105, 147)
-}
-
-p{
-    color:rgb(243, 233, 222)
+    /* background-color:rgb(250, 244, 236); */
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+   
 }
 
 h1{
-    color:rgb(250, 244, 236)
+    color:rgb(37, 105, 147);
+    font-family:"Montserrat", sans-serif;
 }
 
 .header1{
-    font-family:"Montserrat", sans-serif;
+    text-align:center;
+}
+
+.main{
+    background-color: rgb(243, 233, 222);
+    
+}
+
+.aside{
+    background-color: rgb(250, 244, 236);
+    height:100vh;
+    margin:0%;
 }
