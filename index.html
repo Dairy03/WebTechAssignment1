@@ -10,13 +10,14 @@
     />
     <title>Document</title>
   </head>
+
   <body>
     <aside class="aside">
-        <h1 class="header2">My Notes</h1>
-        <ul style="list-style-type:square">
-            <li>note one</li>
-            <li>note two</li>
-        </ul>
+      <h1 class="header2">My Notes</h1>
+      <ul style="list-style-type: square">
+        <li>note one</li>
+        <li>note two</li>
+      </ul>
     </aside>
 
     <main class="main">
@@ -24,15 +25,26 @@
         <h1 class="header1">Take Better Notes</h1>
       </header>
 
+      <nav class="nav">
+        <a>About</a>
+        <a>Docs</a>
+      </nav>
+
       <article class="text">
-        <button class="" type="button">New Note</button>
+        <div class="buttons">
+          <button class="nbut" type="button">New Note</button>
+          <button class="dbut" type="button">Dark Theme</button>
+        </div>
 
         <textarea
-          id=""
+          class="textbox"
           placeholder="This is a placeholder"
-          rows="10"
-          cols="155"
         ></textarea>
+
+        <div class="buttons2">
+          <button class="sbut" type="button">Save</button>
+          <button class="cbut" type="button">Cancel</button>
+        </div>
       </article>
 
       <footer>

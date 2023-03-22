@@ -4,9 +4,16 @@ body{
    font-family:"Montserrat", sans-serif;
 }
 
-h1, .aside{
+h1, .aside, .nav{
     color:rgb(37, 105, 147);
     /* font-family:"Montserrat", sans-serif; */
+}
+
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
+    margin:15px;
 }
 
 header{
@@ -44,6 +51,24 @@ footer{
 
 }
 
+.textbox{
+    width:  calc(80vw - 20px);
+    height: calc(25vh - 20px);
+}
+
+/* BUTTONS ----------------------------------------------------------------------------------------------------*/
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    /* margin:15px; */
+}
+
+.buttons2{
+    display:flex;
+    justify-content:flex-end;
+}
+
 button{
     border: 0;
     line-height: 2.5;
@@ -52,8 +77,29 @@ button{
     color:white;
     text-align: center;
     border-radius: 10px;
-    background-color:rgb(55, 95, 104);
+    margin:15px;
 }
+
+.nbut{
+    background-color:rgb(55, 95, 104);
+    /* justify-self: start; */
+}
+
+.dbut{
+    background-color:rgb(86, 83, 106);
+    /* justify-self: end; */
+}
+
+.sbut{
+    background-color:rgb(55, 95, 104);
+    margin:15px 7.5px;
+}
+
+.cbut{
+    background-color:rgb(155, 51, 44) ;
+    margin:15px 7.5px;
+}
+
 
 
 @media (min-width:600px){
@@ -61,29 +107,38 @@ button{
     body{
         background-color: red;
         display: grid;
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 20% auto;
     }
 
     .aside{
         height:100vh;
-    
+        
     }
     
+    .nav{
+        height:2vh;
+    }
+
     footer{
         /* background-color:red; */
-        height:16vh
+        height:19vh
     }
     
     .text{
         /* background-color:blue; */
-        height:68vh;
-        /* display:grid; */
+        height:65vh;
+        /* display:grid;  */
 
     }
 
     header{
-        height:16vh;
+        height:10vh;
     }
+
+
+
+    
+
 }
 
 
@@ -91,5 +146,5 @@ button{
 /* storage: 
     dark red:rgb(155, 51, 44) 
     dark purp: rgb(86, 83, 106)
-    
+
     */
