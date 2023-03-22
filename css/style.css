@@ -4,9 +4,28 @@ body{
    font-family:"Montserrat", sans-serif;
 }
 
+/* text color changing. ------------------------------------------------------------------------------------------*/
 h1, .aside, .nav{
     color:rgb(37, 105, 147);
     /* font-family:"Montserrat", sans-serif; */
+    font-weight:bold;
+}
+
+/* sidebar ------------------------------------------------------------------------------------------*/
+.header2{
+    text-align:center;
+}
+
+.aside{
+    background-color: rgb(250, 244, 236);
+    height:15vh;
+}
+
+
+/* main content ------------------------------------------------------------------------------------------ */
+header{
+    text-align:center;
+    /* height:16vh; */
 }
 
 .nav{
@@ -17,27 +36,12 @@ h1, .aside, .nav{
     height:2vh;
 }
 
-header{
-    text-align:center;
-    /* height:16vh; */
-}
-
 .main{
     background-color: rgb(243, 233, 222);
     display:flex;
     flex-direction: column;
     
 }
-
-.aside{
-    background-color: rgb(250, 244, 236);
-    height:15vh;
-}
-
-.header2{
-    text-align:center;
-}
-
 
 .text{
     /* background-color:blue; */
@@ -105,22 +109,16 @@ button{
 @media (min-width:600px){
 
     body{
-        background-color: red;
         display: grid;
         grid-template-columns: 20% auto;
     }
 
     .aside{
         height:100vh;
-        
     }
     
     header{
         height:10vh;
-    }
-
-    .nav{
-        height:2vh;
     }
     
     .text{
@@ -130,17 +128,4 @@ button{
 
     }
 
-    footer{
-        /* background-color:red; */
-        height:19vh;
-    }
-
 }
-
-
-
-/* storage: 
-    dark red:rgb(155, 51, 44) 
-    dark purp: rgb(86, 83, 106)
-
-    */
