@@ -1,7 +1,13 @@
 body{
     /* background-color:rgb(250, 244, 236); */
    padding:0;
+   margin:0;
    font-family:"Montserrat", sans-serif;
+   position:fixed;
+   right:0;
+   left:0;
+   bottom:0;
+   top:0;
 }
 
 /* text color changing. ------------------------------------------------------------------------------------------*/
@@ -14,11 +20,13 @@ h1, .aside, .nav{
 /* sidebar ------------------------------------------------------------------------------------------*/
 .header2{
     text-align:center;
+    margin-top:0
 }
 
 .aside{
     background-color: rgb(250, 244, 236);
     height:15vh;
+
 }
 
 
