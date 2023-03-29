@@ -15,7 +15,7 @@ dbut.addEventListener("click", togglemode)
 cbut.addEventListener("click", cancel)
 nbut.addEventListener("click", newnotebut)
 sbut.addEventListener("click", save)
-
+asideList.addEventListener("click", loadnote)
 
 function togglemode(){
     if (dbut.textContent == "Dark Theme"){
@@ -61,3 +61,17 @@ function save(){
     newLi.textContent = newtitle;
 }
 
+
+function loadnote(event){
+    if(event.target.tagName === "LI"){
+        //console.log(event.target.textContent)
+        for(item of notesArray){
+            if(item['title'] === event.target.textContent){
+                //console.log("true!");
+                textbox.value=item['body'];
+            } else{
+                //console.log('nope');
+            }
+        }
+    }
+}
