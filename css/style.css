@@ -28,10 +28,6 @@ h1, .aside, .nav{
     background-color: rgb(250, 244, 236);
     height:15vh;
 }
-.laside{
-    background-color:rgb(112, 112, 112);
-    color:white;
-}
 
 
 /* main content ------------------------------------------------------------------------------------------ */
@@ -52,10 +48,6 @@ header{
     background-color: rgb(243, 233, 222);
     display:flex;
     flex-direction: column;
-}
-.lmain{
-    background-color:rgb(82, 82, 82);
-    color:white;
 }
 
 .text{
@@ -120,7 +112,20 @@ button{
 }
 
 
+/* DARK/LIGHT THEME TOGGLES ----------------------------------------------------------------------------------------------------*/
 
+.lmain{
+    background-color:rgb(82, 82, 82);
+    color:white;
+}
+
+.laside{
+    background-color:rgb(112, 112, 112);
+    color:white;
+}
+
+
+/* responsive design section ----------------------------------------------------------------------------------------------------*/
 @media (min-width:600px){
 
     body{
